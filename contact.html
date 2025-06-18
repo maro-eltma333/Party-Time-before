@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="icon" type="image/png" href="Copy.jpg">
+    <title>Party Time</title>
+</head>
+<body>
+
+
+<div id="navbar-background">
+    <video autoplay muted loop>
+        <source src="your_video.mp4" type="video/mp4">
+      
+    </video>
+</div>
+
+<div id="navbar">
+    <div id="full-navbar">
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">about-us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </div>
+</div>
+
+<div id="contact-form">
+    <h2>Contact Us</h2>
+    <!-- Form fields -->
+    <form id="message-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required autocomplete="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required autocomplete="email">
+
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message" required autocomplete="message">
+
+        <input type="submit" id="send-button" class="custom-button" >
+       
+    </form>
+
+    <div id="response-message"></div>
+</div>
+<div id="copyright">
+    © Party Time 2023
+</div>
+<div id="contact-background"></div>
+</div>
+
+
+<script src="contact.js"></script>
+</body>
+</html>
+

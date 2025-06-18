@@ -1,0 +1,154 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbar {
+    background-color: cornflowerblue;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+}
+
+#full-navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#full-navbar li {
+    margin: 0 20px;
+}
+
+#full-navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover {
+    color: gold;
+}
+
+
+
+
+
+#prevBtn, #nextBtn {
+    position: absolute;
+    top: 60%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:cornflowerblue;
+    border: none;
+    border-radius: 5px;
+}
+
+#prevBtn {
+    left: 120px;
+}
+
+#nextBtn {
+    right: 70px;
+}
+
+#slideshow-container {
+    position: relative;
+    top: -250px;
+    
+    
+    
+}
+
+img {
+
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    height: 490px;
+    width: 1220px;
+    cursor: pointer;
+}
+
+ h3   {
+    text-align: center;
+    
+}
+h2{
+    margin-top: 150px;
+        text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+#navbar.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+.additional-photo-1{
+width: 350px;
+top: 870px;
+left: 1070px;
+border-radius: 30px;
+       
+        border: 1px solid white;
+}
+.additional-photo-2{
+    width: 350px; padding: 10px 20px;
+    top: 860px;
+    left: 1px;
+    border-radius: 30px;
+       
+        border: 1px solid white;
+    }
+    .additional-photo-3{
+        width: 350px; 
+        top: 870px;
+        left: 550px;
+        border-radius: 15px;
+       
+        border: 1px solid white;
+        }
+
+        h3{
+            margin-top: 535px;
+          
+           font-size: 20px;
+           color: black;
+           
+        }
+        h4{
+            margin-top: 90px;
+           
+           padding-left: 690px;
+           font-size: 20px;
+           color: cornflowerblue;
+           
+        }
+        h5{
+            margin-top: -40px;
+           padding-left: 1220px;
+           font-size: 20px;
+           color: cornflowerblue;
+           
+        }
+        h6{
+            margin-top: -60px;
+            padding-left: 110px;
+            font-size: 20px;
+            color: cornflowerblue;  
+        }

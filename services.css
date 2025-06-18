@@ -1,0 +1,140 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto; /* Hide scrollbars */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbar-background {
+    position: relative;
+    height: 15vh; /* Adjust the height based on your design */
+    background-image: url("copy.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#navbar-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place the video behind other content */
+}
+
+#navbar {
+    background-color: darkorchid;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 115;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#copyright {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    text-align: center;
+}
+
+
+#navbar a:hover {
+    color: gold;
+}
+
+/* Media query for screens with a maximum width of 1170 pixels */
+@media only screen and (max-width: 1100px) {
+    #navbar {
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        z-index: 2;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin: 0;
+        display: inline;
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        margin:  0 7px;
+
+        
+        
+    }
+
+    
+
+
+  
+    
+}
+
+
+#services {
+    max-width:1200px;
+   
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#services h2 {
+    color: #333;
+    font-size: 36px;
+    text-align: center;
+}
+
+.service-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #555;
+    font-size: 16px;
+}
